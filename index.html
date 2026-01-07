@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Information Introduction</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="./bootstrap-5.3.8-dist/css/bootstrap.min.css" rel="stylesheet">
+		<link href="./bootstrap-5.3.8-dist/css/bootstrap.responsive.css" rel="stylesheet">
+		<script src="./bootstrap-5.3.8-dist/js/popper.min.js"></script>
+		<script src="./bootstrap-5.3.8-dist/js/bootstrap.min.js"></script>
+		<style>
+			.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+				    background-color: #14b2d1;
+			}
+			
+			.nav-link {
+				background-color: #45d2ed;
+				color: white;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<div class="container>
+			<div class="position-relative">
+				<div class="position-absolute start-50 translate-middle-x">
+					<ul class="nav nav-pills mt-3 mb-3" id="pills-tab" role="tablist">
+					  <li class="nav-item" role="presentation">
+						<button class="nav-link active fw-bolder" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+							English Version
+						</button>
+					  </li>
+					  <li class="nav-item" role="presentation">
+						<button class="nav-link fw-bolder" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
+							Bangla Version
+						</button>
+					  </li>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="tab-content" id="pills-tabContent">
+				<div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+					<img src="./img/Information Introduction - English Version.jpeg" class="img-fluid rounded border" alt="Information Introduction - English Version.jpg">
+				</div>
+			  
+				<div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+					<img src="./img/Information Introduction - Bangla Version.jpeg" class="img-fluid rounded border" alt="Information Introduction - Bangla Version.jpg">
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
